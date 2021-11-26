@@ -1,5 +1,3 @@
-![ReSource](https://uploads-ssl.webflow.com/6016a148b166393bb61de601/60942413b02410890b73c2b6_resource-logotype.svg)
-
 # 🏄‍♂️ Quick Start
 
 > start all processes
@@ -9,6 +7,7 @@ yarn start-all
 ```
 
 # 🏗 Run Contract Tests
+
 ```bash
 yarn test
 ```
@@ -50,28 +49,6 @@ yarn graph-create-local
 yarn graph-deploy-local
 ```
 
-> generate code for the frontend:
-
-```bash
-yarn codegen
-```
-
-> start the 📱 frontend:
-
-```bash
-yarn start
-```
-
-
-
 🔏 smart contracts in `packages/hardhat/contracts`
 
-📝 Source dApp frontend in `packages/source-dapp/src`
-
-📝 Vesting dApp frontend in `packages/vesting-dapp/src`
-
 💼 Deployment scripts in `packages/hardhat/deploy`
-
-📱 Local app can be found at http://localhost:3000
-
-📕 Go to our home page to learn more : https://www.resourcenetwork.co/
